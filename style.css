@@ -1,0 +1,158 @@
+html {background-color: black;}
+html , body {
+    height: 100%;
+    margin: 0;    
+}
+h1{margin: 0;}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.part1 , .part2 , .part3 , .part4 , .footer{
+    width: 1450px;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    flex: auto;
+}
+
+.part1 {
+    flex: 1 1 0px;
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    color: white;
+    min-height: 530px;
+}
+
+.part1 > .header {
+    display: flex;
+    align-items: center;
+    padding: 0 0 70px 0;
+}
+
+.sign_up {
+    display: flex;
+}
+
+.sign_up > .text {
+    flex: 1 1 100px;
+}
+
+.sign_up > .text > h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.sign_up > .text > p , li {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.part > .header > h1 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.image {
+    flex: auto;
+}
+
+.card {
+    width: 80px;
+    height: 80px;
+    border: blue solid;
+    border-radius: 10px;
+}
+
+figcaption {
+    width: 80px;
+    text-align: center;
+}
+
+.part2 {
+    flex: 1 1 0px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    min-height: 500px;
+}
+
+.part2 > .header {
+    text-align: center;
+    padding: 20px 0 30px 0;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+button {
+    color: #3882F6;
+}
+
+.part2 > .header > h1 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.part3 {
+    flex: 1 1 auto;
+    background-color: #E5E7EB;
+    min-height: 430px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contain {
+    flex: 0 1 400px;
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    flex: auto;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.author {
+    flex: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.author > p {
+    margin-top: 0;
+}
+
+.part4 {
+    flex: 1 1 auto;
+    background-color: white;
+    max-height: 350px;
+    min-height: 350px;
+}
+
+.footer {
+    flex: 0 1 auto;
+    text-align: center;
+    background-color: #1F2937;
+    min-height: 60px;
+}
